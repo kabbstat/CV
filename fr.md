@@ -30,12 +30,13 @@ Ingénieur statisticien avec **5 ans d'expérience**, actuellement spécialisé 
 ## 💼 Expériences Professionnelles & Projets
 
 ### 🔬 **Moteur d'Explicabilité Juridique (XAI)** - Projet Fil Rouge _(En cours)_
-> Client : **Covéa** | Télécom Paris
+> **COVEA & Télécom Paris**
 
-Conception d'une IA de confiance pour justifier automatiquement les décisions de garantie.
+Conception d'une **solution RAG Hybride** pour l'analyse automatisée de la couverture assurantielle.
 
-- **Fine-tuning & Graph RAG** : Modélisation des relations complexes entre documents juridiques et sinistres, adaptation de modèles Llama (Technique LoRA)
-- **Explicabilité (XAI)** : Méthodes d'attribution (Integrated Gradients via Captum, SHAP)
+- **Architecture** : Fusion d'un **Knowledge Graph (Neo4j)** pour la structure contractuelle et d'un **Vector Store (Chroma)** pour la sémantique, pilotée par **LangChain**
+- **Data Engineering** : Pipeline d'ingestion intelligent intégrant le parsing de mise en page (**Docling**) et la réconciliation de métadonnées hétérogènes (**Fuzzy Logic & SQL**)
+- **Modélisation** : **Fine-tuning de LLMs (LoRA)** pour spécialiser le raisonnement juridique et implémentation de mécanismes de citation de sources pour l'explicabilité
 
 ---
 

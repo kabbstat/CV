@@ -30,12 +30,13 @@ Statistical Engineer with **5 years of experience**, currently specializing in *
 ## 💼 Professional Experience & Projects
 
 ### 🔬 **Legal Explainability Engine (XAI)** - Capstone Project _(Current)_
-> Client: **Covéa** | Télécom Paris
+> **COVEA & Télécom Paris**
 
-Designing a trustworthy AI to automatically justify insurance coverage decisions.
+Designing a **Hybrid RAG solution** for automated insurance coverage analysis.
 
-- **Fine-tuning & Graph RAG**: Modeling complex relationships between legal documents and claims, Llama model adaptation (LoRA technique)
-- **Explainability (XAI)**: Attribution methods (Integrated Gradients via Captum, SHAP)
+- **Architecture**: Fusion of a **Knowledge Graph (Neo4j)** for contractual structure and a **Vector Store (Chroma)** for semantics, orchestrated by **LangChain**
+- **Data Engineering**: Intelligent ingestion pipeline integrating layout parsing (**Docling**) and heterogeneous metadata reconciliation (**Fuzzy Logic & SQL**)
+- **Modeling**: **Fine-tuning LLMs (LoRA)** to specialize legal reasoning and implementation of source citation mechanisms for explainability
 
 ---
 
