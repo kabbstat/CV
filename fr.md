@@ -2,10 +2,11 @@
 layout: default
 title: Mohamed Kabbaj - CV
 lang: fr
+permalink: /fr
 ---
 
 <div class="lang-switch">
-  <a href="./en" class="lang-btn">🇬🇧 English</a>
+  <a href="./" class="lang-btn">🇬🇧 English</a>
   <a href="./fr" class="lang-btn active">🇫🇷 Français</a>
 </div>
 

@@ -1,107 +1,172 @@
 ---
 layout: default
-title: Mohamed Kabbaj - CV / Resume
-lang: multi
+title: Mohamed Kabbaj - Resume
+lang: en
+permalink: /
 ---
 
-<div class="language-selector">
-  <h1>🌍 Mohamed Kabbaj</h1>
-  <p class="subtitle">Data Scientist & MLOps Engineer</p>
-  
-  <div class="lang-cards">
-    <a href="./fr" class="lang-card fr">
-      <span class="flag">🇫🇷</span>
-      <span class="lang-name">Français</span>
-      <span class="lang-desc">Voir mon CV en français</span>
-    </a>
-    <a href="./en" class="lang-card en">
-      <span class="flag">🇬🇧</span>
-      <span class="lang-name">English</span>
-      <span class="lang-desc">View my resume in English</span>
-    </a>
-  </div>
+<div class="lang-switch">
+  <a href="./" class="lang-btn active">🇬🇧 English</a>
+  <a href="./fr" class="lang-btn">🇫🇷 Français</a>
 </div>
 
-<style>
-.language-selector {
-  text-align: center;
-  padding: 2em 0;
-}
+# Mohamed Kabbaj
 
-.language-selector h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.2em;
-}
+**Data Scientist & MLOps Engineer | MS at Télécom Paris**  
+📍 Paris, France
 
-.subtitle {
-  font-size: 1.3em;
-  color: #8b949e;
-  margin-bottom: 2em;
-}
+[![Email](https://img.shields.io/badge/Email-mohamed.kabbaj%40telecom--paris.fr-blue?style=flat&logo=gmail)](mailto:mohamed.kabbaj@telecom-paris.fr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed_Kabbaj-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/mohamed-kabbaj-mlops251b7273153/)
+[![GitHub](https://img.shields.io/badge/GitHub-kabbstat-181717?style=flat&logo=github)](https://github.com/kabbstat)
 
-.lang-cards {
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-  flex-wrap: wrap;
-  margin-top: 2em;
-}
+---
 
-.lang-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2em 3em;
-  border-radius: 16px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  border: 2px solid #30363d;
-  background: #161b22;
-  min-width: 200px;
-}
+## 👨‍💻 Profile
 
-.lang-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
-  border-color: #58a6ff;
-}
+Statistical Engineer with **5 years of experience**, currently specializing in **AI & MLOps at Télécom Paris**. I design and deploy **scalable, reproducible, and monitored** machine learning systems, from experimentation to production. My recent work focuses on operationalizing **Large Language Models (LLMOps)**, advanced explainability, and high-performance distributed architectures.
 
-.lang-card.fr:hover {
-  border-color: #0055a4;
-  box-shadow: 0 12px 40px rgba(0, 85, 164, 0.3);
-}
+---
 
-.lang-card.en:hover {
-  border-color: #c8102e;
-  box-shadow: 0 12px 40px rgba(200, 16, 46, 0.3);
-}
+## 💼 Professional Experience & Projects
 
-.flag {
-  font-size: 4em;
-  margin-bottom: 0.3em;
-}
+### 🔬 **Legal Explainability Engine (XAI)** - Capstone Project _(Current)_
+> Client: **Covéa** | Télécom Paris
 
-.lang-name {
-  font-size: 1.5em;
-  font-weight: 600;
-  color: #e6edf3;
-  margin-bottom: 0.3em;
-}
+Designing a trustworthy AI to automatically justify insurance coverage decisions.
 
-.lang-desc {
-  font-size: 0.9em;
-  color: #8b949e;
-}
+- **Fine-tuning & Graph RAG**: Modeling complex relationships between legal documents and claims, Llama model adaptation (LoRA technique)
+- **Explainability (XAI)**: Attribution methods (Integrated Gradients via Captum, SHAP)
 
-@media (max-width: 600px) {
-  .lang-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .lang-card {
-    width: 100%;
-    max-width: 280px;
-  }
-}
-</style>
+---
+
+### 🎯 **Job Recommendation (ML & Collaborative Filtering)** _(Nov 2025)_
+> Challenge Data ENS
+
+- **Advanced Algorithms**: Design of a hybrid recommendation system (Collaborative Filtering) and hyperparameter optimization to maximize precision on sparse data
+
+---
+
+### 🗄️ **Big Data Infrastructure & Distributed Processing (Hadoop)** _(Sep 2025)_
+> Télécom Paris
+
+Deployment of a 5-node cluster to process a real-world **16 GB dataset (71M rows)**.
+
+- **Data Engineering**: Complete stack configuration (HDFS, YARN, Zookeeper, HBase) and implementation of optimized analysis pipelines via MapReduce Streaming and PySpark
+
+---
+
+### 📊 **Statistical Engineer / Data Lead** _(2019 - 2025)_
+> **Ministry of Higher Education**, Rabat
+
+Leading data strategy and statistical modeling for public policies.
+
+- **Modeling**: Design of demographic projection models (Age-Period-Cohort)
+- **Analytics**: Implementation of a business intelligence architecture and automated dashboards
+
+---
+
+### 🏦 **Banking Scorecard Development** - Data Science Project _(Mar - Jun 2025)_
+> GitHub
+
+Building a credit scoring grid for loan approval (Hybrid Stats/ML Approach).
+
+- **Feature Engineering**: Optimal variable discretization, *Weight of Evidence* encoding and variable selection via *Information Value*
+- **Modeling**: Penalized Logistic Regression (Lasso) to ensure regulatory interpretability and probability calibration
+- **Performance & Impact**: Gini maximization, risk segmentation and transformation into scorecard points
+
+---
+
+### 🔒 **MLOps Consultant (Freelance)** - Bank Fraud Detection Project _(Feb - Oct 2024)_
+> **CIH Bank** - Morocco
+
+- **Model Engineering**: Benchmarking and optimization of algorithms (Logistic Regression, Random Forest, XGBoost) to maximize fraud detection
+- **Data Quality**: Implementation of advanced resampling strategies (Undersampling, Oversampling) to neutralize imbalanced data bias
+- **MLOps & Production**: Industrialization of the champion model and setup of an automated monitoring pipeline to detect and correct *Data Drift* in real-time
+
+---
+
+### 🌾 **Data Scientist Consultant (Freelance)** - Agro-Climatic Project _(Mar - Jun 2023)_
+> Morocco
+
+- **Modeling**: Kalman Filters to estimate price volatility facing climate shocks
+- **Tech**: Satellite image analysis (NDVI) and spatial data processing pipelines
+
+---
+
+### 📈 **Data Scientist Intern (Research)** _(2019 - 6 months)_
+> **Ministry of Economy**, Rabat
+
+- **Topic**: Economic Complexity and Regional Specialization
+- **Publication**: Poster at Utrecht University "Economic Complexity workshop"
+
+---
+
+## 🛠️ Technical Skills
+
+### Operations & MLOps
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white)
+
+`CI/CD` `DVC` `Monitoring` `Model Drift`
+
+### GenAI & NLP
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+
+`LLMs (Fine-tuning, RAG)` `Transformers` `Deep Learning` `NLP` `Embeddings` `Topic Modeling`
+
+### Big Data
+![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+
+`MapReduce` `HDFS` `SQL` `dbt` `FastAPI` `NoSQL (Neo4j, MongoDB)` `ElasticSearch`
+
+### ML & Statistics
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+
+`Supervised/Unsupervised Learning` `Bayesian Inference` `Spatial Econometrics` `Time Series` `Optimization`
+
+---
+
+## 🎓 Education
+
+### **Advanced Master in AI & MLOps** _(2025 - 2026)_
+📍 **Télécom Paris**, Paris  
+Focus: Large Language Models, MLOps, Distributed Systems, AI Industrialization
+
+### **State Engineer in Statistics & Applied Economics** _(2016 - 2019)_
+📍 **INSEA**, Rabat  
+🏆 **Valedictorian (Top of Class)**  
+Specialization: Data Science & Econometrics
+
+### **Preparatory Classes for Grandes Écoles (CPGE)** _(2014 - 2016)_
+📍 MPSI/MP - Mathematics & Physics
+
+---
+
+## 🌍 Languages
+
+| Language | Level |
+|----------|-------|
+| 🇫🇷 French | Fluent |
+| 🇬🇧 English | Professional |
+| 🇲🇦 Arabic | Native |
+
+---
+
+## 📫 Contact
+
+📧 **Email:** [mohamed.kabbaj@telecom-paris.fr](mailto:mohamed.kabbaj@telecom-paris.fr)  
+📱 **Phone:** +33 7 45 68 25 86  
+💼 **LinkedIn:** [Mohamed Kabbaj](https://www.linkedin.com/in/mohamed-kabbaj-mlops251b7273153/)  
+🐙 **GitHub:** [kabbstat](https://github.com/kabbstat)
+
+---
+
+<p align="center">
+  <b>Open to opportunities in Data Science, MLOps & AI</b><br>
+  <i>Available for freelance or permanent positions</i>
+</p>
