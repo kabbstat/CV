@@ -1,117 +1,160 @@
 # Mohamed Kabbaj
 
-MLOps and Analytics engineer based in Paris
+**Data Scientist & MLOps | MS à Télécom Paris**  
+📍 Paris, France
 
-[Email](mailto:statkabb95@gmail.com) / [LinkedIn](https://www.linkedin.com/in/mohamed-kabbaj-1b7273153) / [GitHub](https://github.com/kabbstat) / [HuggingFace](https://huggingface.co/ImadSaddik) 
+[![Email](https://img.shields.io/badge/Email-mohamed.kabbaj%40telecom--paris.fr-blue?style=flat&logo=gmail)](mailto:mohamed.kabbaj@telecom-paris.fr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed_Kabbaj-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/mohamed-kabbaj-mlops251b7273153/)
+[![GitHub](https://img.shields.io/badge/GitHub-kabbstat-181717?style=flat&logo=github)](https://github.com/kabbstat)
 
-## Engineering experience
+---
 
-**Full Stack Developer** @ [AGC Glass Europe](https://www.agc-glass.eu/en/) _(Jun 2024 - Present)_
+## 👨‍💻 Profil
 
-Developing and enhancing an internal AI-driven platform for employees.
+Ingénieur statisticien avec **5 ans d'expérience**, actuellement spécialisé en **IA & MLOps à Télécom Paris**. Je conçois et déploie des systèmes d'apprentissage automatique **scalables, reproductibles et monitorés**, de la phase d'expérimentation jusqu'à la mise en production. Mes travaux récents portent sur l'opérationnalisation de **Large Language Models (LLMOps)**, l'explicabilité avancée, et les architectures distribuées haute-performance.
 
-- Engineered AI-driven features using **LangChain** to integrate with **Elasticsearch** and **LLM APIs** (e.g., OpenAI, Claude), delivering capabilities such as advanced **RAG** for document analysis, deep web research, and image generation for AGC employees.
-- Architected and built **ReAct agents** with **LangGraph** to automate IT support and enhance information retrieval, integrating diverse systems like iTop ticketing, Viva Engage, and multiple vectorstores, thereby centralizing key resources for employees and the IT team.
-- Developed and maintained the robust **Python backend** for the AI-driven internal application using **FastAPI**, ensuring efficient API communication for all AI features and agentic systems.
-- Implemented comprehensive logging and monitoring for AI systems using **Elasticsearch** to ensure system observability, track performance, and facilitate troubleshooting.
-- **Technologies used:** Python, FastAPI, LangChain, LangGraph, ReAct, RAG, LLM APIs (OpenAI, Claude), Elasticsearch, Redis, React.js, TypeScript, Docker, Git.
+---
 
-**AI Engineer** @ [AI-Inside Private](https://www.ai-inside-private.com/) _(Jun 2024 - May 2025)_
+## 💼 Expériences Professionnelles & Projets
 
-Delivered AI and full-stack solutions for various client projects.
+### 🔬 **Moteur d'Explicabilité Juridique (XAI)** - Projet Fil Rouge _(En cours)_
+> Client : **Covéa** | Télécom Paris
 
-- Developed and deployed multiple full-stack web applications utilizing **Vue.js** for responsive frontends and **Python** with **FastAPI** for backend APIs.
-- Developed and trained **Deep Learning models** using **PyTorch** for automated visual classification of industrial parts, improving quality control processes.
-- Integrated Pinia for state management in Vue.js applications and utilized Redis for caching.
-- Processed and analyzed geospatial data for mapping applications.
-- Designed and built dashboards using Power BI.
-- **Technologies used:** Python, FastAPI, PyTorch, Vue.js, Pinia, Redis, PostgreSQL, Power BI, Docker.
+Conception d'une IA de confiance pour justifier automatiquement les décisions de garantie.
 
-**Researcher (End-of-Studies Internship)** @ [CESI Lineact](https://www.cesi.fr/recherche-innovation/lineact/) _(Feb 2024 - Jul 2024)_
+- **Fine-tuning & Graph RAG** : Modélisation des relations complexes entre documents juridiques et sinistres, adaptation de modèles Llama (Technique LoRA)
+- **Explicabilité (XAI)** : Méthodes d'attribution (Integrated Gradients via Captum, SHAP)
 
-Contributed to a project on innovative methods for energetically and economically evaluating buildings for urban decarbonization.
+---
 
-- Integrated artificial intelligence into decarbonization strategies, focusing on deep learning and techno-economic models to optimize photovoltaic integration in building designs.
-- Conducted research and analysis on ten buildings between Strasbourg and Paris campuses.
-- **Technologies used:** Python, Deep Learning, Machine Learning, Data Analysis, Research.
+### 🎯 **Recommandation d'Emploi (ML & Collaborative Filtering)** _(Nov 2025)_
+> Challenge Data ENS
 
-## Open Source contributions
+- **Algorithmique Avancée** : Conception d'un système de recommandation hybride (Filtrage Collaboratif) et optimisation des hyperparamètres pour maximiser la précision sur des données éparses
 
-For a complete overview of my open source contributions, check [this GitHub search query](https://github.com/search?q=is%3Apr+author%3Aimadsaddik+is%3Amerged+-user%3Aimadsaddik+is%3Apublic&type=pullrequests). Below is the same information organized by year.
+---
 
-### 2025
+### 🗄️ **Infrastructure Big Data & Traitement Distribué (Hadoop)** _(Sep 2025)_
+> Télécom Paris
 
-- [Fixed a small typo in context_precision.md](https://github.com/explodinggradients/ragas/pull/2166) _(Ragas)_
-- [Fixed the incorrect link to the 20B model in gpt-oss.md](https://github.com/huggingface/hub-docs/pull/1862) _(Hugging Face)_
-- [Removed unnecessary character from the kNN query documentation](https://github.com/elastic/elasticsearch/pull/130120) _(Elasticsearch)_
-- [Fixed grammar & spelling in Unit 2](https://github.com/huggingface/mcp-course/pull/42) _(Hugging Face)_
-- [Fixed grammar in multiple files](https://github.com/huggingface/mcp-course/pull/34) _(Hugging Face)_
-- [Fix grammar in Unit 2.3 - Document Analysis Graph](https://github.com/huggingface/agents-course/pull/447) _(Hugging Face)_
-- [Added the BoDmagh dataset in the general text corpora](https://github.com/UM6P-EMINES/Awesome-Darija-Arabic-NLP-Resources/pull/10) _(Awesome Darija Arabic NLP Resources)_
-- [Contributed more translations in 62.csv](https://github.com/darija-open-dataset/dataset/pull/204) _(Darija Open Dataset)_
-- [Dashboard to track the progress](https://github.com/darija-open-dataset/dataset/pull/202) _(Darija Open Dataset)_
-- [Worked on few rows on the 62nd file](https://github.com/darija-open-dataset/dataset/pull/200) _(Darija Open Dataset)_
+Déploiement d'un cluster sur 5 nœuds pour traiter un dataset réel de **16 Go (71M lignes)**.
 
-### 2024
+- **Data Engineering** : Configuration complète de la stack (HDFS, YARN, Zookeeper, HBase) et implémentation de pipelines d'analyse optimisés via MapReduce Streaming et PySpark
 
-- [Fixed the code snippet in the Update State From Tools tutorial](https://github.com/langchain-ai/langgraph/pull/2752) _(LangGraph)_
-- [Fixed the documentation for the persistence concept](https://github.com/langchain-ai/langgraph/pull/2750) _(LangGraph)_
-- [Fixed hyperlink in search.asciidoc](https://github.com/elastic/elasticsearch/pull/115156) _(Elasticsearch)_
-- [File 62 - Contribution N1](https://github.com/darija-open-dataset/dataset/pull/164) _(Darija Open Dataset)_
+---
 
-## Accomplishments
+### 📊 **Ingénieur Statisticien / Data Lead** _(2019 - 2025)_
+> **Ministère de l'Enseignement Supérieur**, Rabat
 
-- **First Best Paper Award** @ [ICRERA 2024 — 13th International Conference on Renewable Energy Research and Applications](https://www.icrera.org/archieve2024/)
-  _Awarded in November 2024_
-  
-  [Read the paper on IEEE Xplore](https://ieeexplore.ieee.org/document/10815288)
-  ![Best Paper Award ICRERA 2024](./images/best_paper_award_icrera.png)
+Pilotage de la stratégie data et modélisation statistique pour les politiques publiques.
 
-- **Published an article** in the _Solar Energy Journal_ (Vol. 297, 2025, 113567).
+- **Modélisation** : Conception de modèles de projection démographique (Age-Period-Cohort)
+- **Analytics** : Mise en place d'une architecture décisionnelle et de dashboards automatisés
 
-  **Title**: Lightweight Deep Learning for Photovoltaic Energy Prediction : Optimizing Decarbonization in Winter Houses.
-  [Read the article on ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0038092X25003305)
+---
 
-- **Built [My Universe Hub](https://myuniversehub.com/)** – A personal website reimagining NASA’s APOD with a modern and interactive UI using **Vue.js** and **Django**.
+### 🏦 **Banking Scorecard Development** - [Data Science Project](https://github.com/kabbstat) _(Mar - Jun 2025)_
+> GitHub
 
-- **Created a course on training LLMs from scratch** on FreeCodeCamp \
-  Covers the full lifecycle of LLMs: data encoding, tokenizers, pretraining, and fine-tuning.
-  [Watch the course](https://www.youtube.com/watch?v=9Ge0sMm65jo&t)
+Construction d'une grille de score pour l'octroi de crédit (Approche Hybride Stats/ML).
 
-- **Created a course on the evolution of the Transformer architecture** on FreeCodeCamp \
-  Covers the different attention methods, positional encoding methods, activation functions, and more.
-  [Watch the course](https://www.youtube.com/watch?v=8WBS0dT0h2I&t=1202s)
+- **Feature Engineering** : Discrétisation optimale des variables, encodage *Weight of Evidence* et sélection de variables via *Information Value*
+- **Modélisation** : Régression Logistique pénalisée (Lasso) pour garantir l'interprétabilité réglementaire et la calibration des probabilités
+- **Performance & Impact** : Maximisation du Gini, segmentation du risque et transformation en grille de points
 
-- **Created a course on Elasticsearch** on FreeCodeCamp \
-  Teaches core concepts, indexing, querying, and practical integrations.
-  [Watch the course](https://www.youtube.com/watch?v=a4HBKEda_F8)
+---
 
-- **Created an OSRM (Open Source Routing Machine) course** on 3CodeCamp \
-  Intro to OSRM architecture, routing basics, and building navigation apps.
-  [Watch the course](https://www.youtube.com/watch?v=Ke_NISW-bDM&list=PLMSb3cZXtIfoT7duU9eAdpmcnDq2rINUJ&index=1&t)
+### 🔒 **Consultant MLOps (Freelance)** - Détection de Fraude Bancaire _(Fév - Oct 2024)_
+> **CIH Bank** - Maroc
 
-## Certifications
+- **Ingénierie des Modèles** : Benchmarking et optimisation d'algorithmes (Régression Logistique, Random Forest, XGBoost) pour maximiser la détection des fraudes
+- **Qualité des Données** : Implémentation de stratégies de rééchantillonnage avancées (Undersampling, Oversampling) pour neutraliser le biais des données déséquilibrées
+- **MLOps & Production** : Industrialisation du modèle champion et mise en place d'un pipeline de monitoring automatisé pour détecter et corriger le *Data Drift* en temps réel
 
-- **[Deep Learning Specialization](https://www.credly.com/badges/d50e8839-e5cd-40b4-b299-2470c2096db0/print)** - _DeepLearning.AI_
+---
 
-- **Fundamentals of Agents** - _Hugging Face_
-  ![Fundamentals of Agents Certificate](./images/smol_agents_certificate.png)
+### 🌾 **Consultant Data Scientist (Freelance)** - Projet Agro-Climatique _(Mar - Jun 2023)_
+> Maroc
 
-- **Fundamentals of MCP** - _Hugging Face_
-  ![Fundamentals of MCP Certificate](./images/mcp_certificate.png)
+- **Modélisation** : Filtres de Kalman pour estimer la volatilité des prix face aux chocs climatiques
+- **Tech** : Analyse d'images satellites (NDVI) et pipelines de traitement de données spatiales
 
-## Education
+---
 
-**MS in Artificial Intelligence - Expert Data & MLops** (_2025 – 2026_)  
-[Télécom Paris ]
+### 📈 **Stagiaire Data Scientist (Recherche)** _(2019 - 6 mois)_
+> **Ministère de l'Économie**, Rabat
 
-**Engineer Degree in statistics and applied economics** (_2016 – 2019_)  
-[INSEA Rabat – Institut National de Statistique et d'Economie Appliquée]
+- **Sujet** : Complexité Économique et Spécialisation Régionale
+- **Publication** : Poster à l'université d'Utrecht "Economic Complexity workshop"
 
+---
 
+## 🛠️ Compétences Techniques
 
-## Languages
+### Operations & MLOps
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white)
 
-🇲🇦 **Arabic** - Native  
-🇺🇸 **English**  
-🇫🇷 **French**
+`CI/CD` `DVC` `Monitoring` `Model Drift`
+
+### GenAI & NLP
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+
+`LLMs (Fine-tuning, RAG)` `Transformers` `Deep Learning` `NLP` `Embeddings` `Topic Modeling`
+
+### Big Data
+![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+
+`MapReduce` `HDFS` `SQL` `dbt` `FastAPI` `NoSQL (Neo4j, MongoDB)` `ElasticSearch`
+
+### ML & Statistics
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+
+`Supervised/Unsupervised Learning` `Bayesian Inference` `Spatial Econometrics` `Time Series` `Optimization`
+
+---
+
+## 🎓 Formation
+
+### **Mastère Spécialisé IA & MLOps** _(2025 - 2026)_
+📍 **Télécom Paris**, Paris  
+Focus : Large Language Models, MLOps, Systèmes Distribués, Industrialisation de l'IA
+
+### **Ingénieur d'État en Statistique & Économie Appliquée** _(2016 - 2019)_
+📍 **INSEA**, Rabat  
+🏆 **Major de promotion (Valedictorian)**  
+Spécialisation : Data Science & Économétrie
+
+### **Classes Préparatoires aux Grandes Écoles (CPGE)** _(2014 - 2016)_
+📍 MPSI/MP - Mathématiques & Physique
+
+---
+
+## 🌍 Langues
+
+| Langue | Niveau |
+|--------|--------|
+| 🇫🇷 Français | Courant |
+| 🇬🇧 Anglais | Professionnel |
+| 🇲🇦 Arabe | Natif |
+
+---
+
+## 📫 Contact
+
+📧 **Email:** [mohamed.kabbaj@telecom-paris.fr](mailto:mohamed.kabbaj@telecom-paris.fr)  
+📱 **Téléphone:** +33 7 45 68 25 86  
+💼 **LinkedIn:** [Mohamed Kabbaj](https://www.linkedin.com/in/mohamed-kabbaj-mlops251b7273153/)  
+🐙 **GitHub:** [kabbstat](https://github.com/kabbstat)
+
+---
+
+<p align="center">
+  <b>Ouvert aux opportunités en Data Science, MLOps & IA</b><br>
+  <i>Disponible pour des missions freelance ou CDI</i>
+</p>
