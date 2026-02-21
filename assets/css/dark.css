@@ -11,23 +11,25 @@
   --text-primary: #e6edf3;
   --text-secondary: #8b949e;
   --text-muted: #6e7681;
-  --accent-primary: #58a6ff;
-  --accent-secondary: #1f6feb;
+  /* Burgundy Theme Colors */
+  --accent-primary: #9b2335;
+  --accent-secondary: #722f37;
+  --accent-light: #c45c68;
   --accent-green: #3fb950;
-  --accent-purple: #a371f7;
-  --accent-orange: #f0883e;
-  --accent-red: #f85149;
+  --accent-purple: #9b2335;
+  --accent-orange: #d4a574;
+  --accent-red: #9b2335;
   --accent-yellow: #d29922;
   --border-color: #30363d;
-  --border-highlight: #388bfd;
+  --border-highlight: #9b2335;
   --shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.3);
-  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  --shadow-card: 0 4px 16px rgba(155, 35, 53, 0.2);
+  --gradient-primary: linear-gradient(135deg, #9b2335 0%, #722f37 100%);
+  --gradient-secondary: linear-gradient(135deg, #c45c68 0%, #9b2335 100%);
   --gradient-green: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
-  --gradient-blue: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  --gradient-blue: linear-gradient(135deg, #9b2335 0%, #722f37 100%);
   --timeline-color: #30363d;
-  --timeline-dot: #58a6ff;
+  --timeline-dot: #9b2335;
 }
 
 /* Base Styles */
@@ -49,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.4em;
-  background: var(--gradient-primary);
+  background: linear-gradient(135deg, #9b2335 0%, #c45c68 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -93,8 +95,8 @@ a {
 }
 
 a:hover {
-  color: var(--accent-green);
-  border-bottom-color: var(--accent-green);
+  color: var(--accent-light);
+  border-bottom-color: var(--accent-light);
 }
 
 /* Text */
@@ -146,7 +148,7 @@ header {
 }
 
 header h1 a {
-  background: var(--gradient-primary);
+  background: linear-gradient(135deg, #9b2335 0%, #c45c68 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
