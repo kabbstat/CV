@@ -38,31 +38,37 @@
         position: sticky;
         top: 0;
         z-index: 100;
+        backdrop-filter: blur(10px);
+        background: rgba(22, 27, 34, 0.95);
       }
       
       .profile-section {
         text-align: center;
-        padding: 1em 0;
+        padding: 1.5em 0;
       }
       
       .profile-avatar {
-        width: 120px;
-        height: 120px;
+        width: 130px;
+        height: 130px;
         border-radius: 50%;
-        border: 3px solid #58a6ff;
+        border: 4px solid transparent;
+        background: linear-gradient(135deg, #667eea, #764ba2) padding-box,
+                    linear-gradient(135deg, #667eea, #764ba2) border-box;
         margin-bottom: 1em;
-        transition: transform 0.3s ease;
+        transition: all 0.4s ease;
+        box-shadow: 0 8px 30px rgba(102, 126, 234, 0.3);
       }
       
       .profile-avatar:hover {
-        transform: scale(1.05);
+        transform: scale(1.08) rotate(5deg);
+        box-shadow: 0 12px 40px rgba(102, 126, 234, 0.4);
       }
       
       .social-links {
         display: flex;
         justify-content: center;
-        gap: 1em;
-        margin: 1em 0;
+        gap: 0.8em;
+        margin: 1.2em 0;
         flex-wrap: wrap;
       }
       
@@ -70,21 +76,41 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 40px;
-        height: 40px;
+        width: 44px;
+        height: 44px;
         border-radius: 50%;
-        background: #21262d;
+        background: linear-gradient(135deg, #21262d 0%, #161b22 100%);
         color: #8b949e;
         text-decoration: none;
-        transition: all 0.3s ease;
-        border: 1px solid #30363d;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        border: 2px solid #30363d;
+        font-size: 1.1em;
       }
       
       .social-links a:hover {
-        background: #58a6ff;
         color: white;
-        transform: translateY(-3px);
-        border-color: #58a6ff;
+        transform: translateY(-4px) scale(1.1);
+        border-color: transparent;
+      }
+      
+      .social-links a:nth-child(1):hover {
+        background: linear-gradient(135deg, #ea4335 0%, #c5221f 100%);
+        box-shadow: 0 8px 25px rgba(234, 67, 53, 0.4);
+      }
+      
+      .social-links a:nth-child(2):hover {
+        background: linear-gradient(135deg, #0077b5 0%, #005582 100%);
+        box-shadow: 0 8px 25px rgba(0, 119, 181, 0.4);
+      }
+      
+      .social-links a:nth-child(3):hover {
+        background: linear-gradient(135deg, #333 0%, #24292f 100%);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+      }
+      
+      .social-links a:nth-child(4):hover {
+        background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+        box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
       }
       
       .status-badge {
@@ -93,10 +119,12 @@
         gap: 0.5em;
         background: linear-gradient(135deg, #238636 0%, #2ea043 100%);
         color: white;
-        padding: 0.4em 1em;
-        border-radius: 20px;
+        padding: 0.5em 1.2em;
+        border-radius: 25px;
         font-size: 0.85em;
+        font-weight: 500;
         margin-top: 1em;
+        box-shadow: 0 4px 15px rgba(46, 160, 67, 0.3);
       }
       
       .status-badge::before {
@@ -106,11 +134,40 @@
         background: #7ee787;
         border-radius: 50%;
         animation: pulse 2s infinite;
+        box-shadow: 0 0 10px #7ee787;
       }
       
       @keyframes pulse {
         0%, 100% { opacity: 1; }
         50% { opacity: 0.5; }
+      }
+      
+      /* Download CV Button */
+      .download-cv-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5em;
+        margin-top: 1em;
+        padding: 0.8em 1.5em;
+        background: linear-gradient(135deg, #f85149 0%, #da3633 100%);
+        color: white !important;
+        border-radius: 25px;
+        font-size: 0.9em;
+        font-weight: 600;
+        text-decoration: none !important;
+        border: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(248, 81, 73, 0.3);
+      }
+      
+      .download-cv-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(248, 81, 73, 0.4);
+        background: linear-gradient(135deg, #da3633 0%, #b62324 100%);
+      }
+      
+      .download-cv-btn i {
+        font-size: 1.1em;
       }
       
       /* Language Switch Buttons */
@@ -186,8 +243,8 @@
         position: fixed;
         bottom: 30px;
         right: 30px;
-        width: 50px;
-        height: 50px;
+        width: 54px;
+        height: 54px;
         border-radius: 50%;
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         color: white;
@@ -196,29 +253,55 @@
         display: none;
         align-items: center;
         justify-content: center;
-        font-size: 1.2em;
-        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-        transition: all 0.3s ease;
+        font-size: 1.3em;
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         z-index: 1000;
       }
       
       .back-to-top:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+        transform: translateY(-6px) scale(1.1);
+        box-shadow: 0 12px 30px rgba(102, 126, 234, 0.6);
       }
       
       .back-to-top.visible {
         display: flex;
+        animation: bounceIn 0.5s ease;
+      }
+      
+      @keyframes bounceIn {
+        0% {
+          opacity: 0;
+          transform: scale(0.3);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
       }
       
       /* Footer Enhancement */
       footer {
         text-align: center;
-        padding: 2em 0;
+        padding: 2.5em 0;
+        background: linear-gradient(180deg, transparent 0%, rgba(22, 27, 34, 0.5) 100%);
       }
       
       footer p {
         margin: 0.5em 0;
+        color: #6e7681;
+      }
+      
+      footer a {
+        color: #58a6ff;
+        transition: color 0.3s ease;
+      }
+      
+      footer a:hover {
+        color: #79c0ff;
       }
       
       /* Smooth scroll indicator */
@@ -226,10 +309,18 @@
         position: fixed;
         top: 0;
         left: 0;
-        height: 3px;
-        background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+        height: 4px;
+        background: linear-gradient(90deg, #667eea, #764ba2, #f093fb, #f5576c);
+        background-size: 300% 100%;
+        animation: gradientShift 3s ease infinite;
         z-index: 9999;
         transition: width 0.1s ease;
+        box-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
+      }
+      
+      @keyframes gradientShift {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
       }
     </style>
   </head>
@@ -261,6 +352,10 @@
           </div>
           
           <span class="status-badge">Disponible pour opportunités</span>
+          
+          <a href="https://github.com/kabbstat/CV/raw/main/KABBAJ_MOHAMED_CV_.pdf" class="download-cv-btn" download>
+            <i class="fas fa-file-pdf"></i> Télécharger CV (PDF)
+          </a>
         </div>
 
         {% if site.github.is_project_page %}

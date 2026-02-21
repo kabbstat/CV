@@ -29,6 +29,17 @@ Ingénieur statisticien avec **5 ans d'expérience**, actuellement spécialisé 
 
 ## 💼 Expériences Professionnelles & Projets
 
+### 🏦 **ML Engineer** _(2023 - Août 2025)_
+> **CIH Bank** - Maroc
+
+Scoring crédit & Détection de fraude : Conception, développement et mise en production.
+
+- **Scorecard Bancaire** : Construction d'une grille de score pour l'octroi de crédit (WoE, IV, Régression Logistique Lasso), maximisation du Gini
+- **Détection de Fraude** : Benchmarking d'algorithmes (Logit, Random Forest, XGBoost) et stratégies de rééchantillonnage (SMOTE, Undersampling)
+- **MLOps** : Industrialisation des modèles, pipelines CI/CD et monitoring automatisé de la dérive (Data Drift)
+
+---
+
 ### 🔬 **Moteur d'Explicabilité Juridique (XAI)** - Projet Fil Rouge _(En cours)_
 > **COVEA & Télécom Paris**
 
@@ -56,33 +67,13 @@ Déploiement d'un cluster sur 5 nœuds pour traiter un dataset réel de **16 Go 
 
 ---
 
-### 📊 **Ingénieur Statisticien / Data Lead** _(2019 - 2025)_
+### 📊 **Ingénieur Statisticien / Data Engineer** _(2019 - 2023)_
 > **Ministère de l'Enseignement Supérieur**, Rabat
 
 Pilotage de la stratégie data et modélisation statistique pour les politiques publiques.
 
 - **Modélisation** : Conception de modèles de projection démographique (Age-Period-Cohort)
 - **Analytics** : Mise en place d'une architecture décisionnelle et de dashboards automatisés
-
----
-
-### 🏦 **Banking Scorecard Development** - Data Science Project _(Mar - Jun 2025)_
-> GitHub
-
-Construction d'une grille de score pour l'octroi de crédit (Approche Hybride Stats/ML).
-
-- **Feature Engineering** : Discrétisation optimale des variables, encodage *Weight of Evidence* et sélection de variables via *Information Value*
-- **Modélisation** : Régression Logistique pénalisée (Lasso) pour garantir l'interprétabilité réglementaire et la calibration des probabilités
-- **Performance & Impact** : Maximisation du Gini, segmentation du risque et transformation en grille de points
-
----
-
-### 🔒 **Consultant MLOps (Freelance)** - Détection de Fraude Bancaire _(Fév - Oct 2024)_
-> **CIH Bank** - Maroc
-
-- **Ingénierie des Modèles** : Benchmarking et optimisation d'algorithmes (Régression Logistique, Random Forest, XGBoost) pour maximiser la détection des fraudes
-- **Qualité des Données** : Implémentation de stratégies de rééchantillonnage avancées (Undersampling, Oversampling) pour neutraliser le biais des données déséquilibrées
-- **MLOps & Production** : Industrialisation du modèle champion et mise en place d'un pipeline de monitoring automatisé pour détecter et corriger le *Data Drift* en temps réel
 
 ---
 

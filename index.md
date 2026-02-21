@@ -29,6 +29,17 @@ Statistical Engineer with **5 years of experience**, currently specializing in *
 
 ## 💼 Professional Experience & Projects
 
+### 🏦 **ML Engineer** _(2023 - Aug 2025)_
+> **CIH Bank** - Morocco
+
+Credit Scoring & Fraud Detection: Design, development and production deployment.
+
+- **Banking Scorecard**: Building a credit scoring grid (WoE, IV, Lasso Logistic Regression), Gini maximization
+- **Fraud Detection**: Algorithm benchmarking (Logit, Random Forest, XGBoost) and resampling strategies (SMOTE, Undersampling)
+- **MLOps**: Model industrialization, CI/CD pipelines and automated drift monitoring (Data Drift)
+
+---
+
 ### 🔬 **Legal Explainability Engine (XAI)** - Capstone Project _(Current)_
 > **COVEA & Télécom Paris**
 
@@ -56,33 +67,13 @@ Deployment of a 5-node cluster to process a real-world **16 GB dataset (71M rows
 
 ---
 
-### 📊 **Statistical Engineer / Data Lead** _(2019 - 2025)_
+### 📊 **Statistical Engineer / Data Engineer** _(2019 - 2023)_
 > **Ministry of Higher Education**, Rabat
 
 Leading data strategy and statistical modeling for public policies.
 
 - **Modeling**: Design of demographic projection models (Age-Period-Cohort)
 - **Analytics**: Implementation of a business intelligence architecture and automated dashboards
-
----
-
-### 🏦 **Banking Scorecard Development** - Data Science Project _(Mar - Jun 2025)_
-> GitHub
-
-Building a credit scoring grid for loan approval (Hybrid Stats/ML Approach).
-
-- **Feature Engineering**: Optimal variable discretization, *Weight of Evidence* encoding and variable selection via *Information Value*
-- **Modeling**: Penalized Logistic Regression (Lasso) to ensure regulatory interpretability and probability calibration
-- **Performance & Impact**: Gini maximization, risk segmentation and transformation into scorecard points
-
----
-
-### 🔒 **MLOps Consultant (Freelance)** - Bank Fraud Detection Project _(Feb - Oct 2024)_
-> **CIH Bank** - Morocco
-
-- **Model Engineering**: Benchmarking and optimization of algorithms (Logistic Regression, Random Forest, XGBoost) to maximize fraud detection
-- **Data Quality**: Implementation of advanced resampling strategies (Undersampling, Oversampling) to neutralize imbalanced data bias
-- **MLOps & Production**: Industrialization of the champion model and setup of an automated monitoring pipeline to detect and correct *Data Drift* in real-time
 
 ---
 
