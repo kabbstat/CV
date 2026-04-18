@@ -1,7 +1,41 @@
+## PDFs
 KABBAJ_MOHAMED_CV _.pdf
 KABBAJ_MOHAMED_CV__.pdf
-code_latex
 cv_KABBAJ_MOHAMED.pdf
 lettre_de_motivation.pdf
+CV_kabbaj_mohamed_en.pdf
+KABBAJ_MOHAMED_CV .pdf
+
+# Images
 Gemini_Generated_Image_hwlzu5hwlzu5hwlz.png
+Gemini_Generated_Image_4tczmp4tczmp4tcz.png
 kabbajmoha.png
+ekimetrics RD director DS ML .png
+Capture d’écran 2026-04-07 201524.png
+Capture d’écran 2026-04-10 173235.png
+Capture d’écran 2026-04-14 105844.png
+*.jfif
+Capture d'écran *.png
+
+# LaTeX source files & variants (not used by GitHub Pages)
+code_latex
+code_latex_cb
+code_latex_data_eng
+code_latex_en
+code_latex_en_v2
+code_latex_en_v2_cb
+code_latex_sfr
+code_latex_v2
+code_latex_v2_cb
+code_latex.bak
+maroc/
+lettre_motivation_oresys.tex
+
+# Cover letters
+Nouveau dossier/
+lettre explicative/
+Job teaser/
+
+# Old/alternate CV versions (CIH Bank specific)
+index_cb.md
+fr_cb.md

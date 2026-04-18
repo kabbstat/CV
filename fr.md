@@ -23,31 +23,32 @@ permalink: /fr
 
 ## 👨‍💻 Profil
 
-Ingénieur statisticien avec **5 ans d'expérience**, actuellement spécialisé en **IA & MLOps à Télécom Paris**. Je conçois et déploie des systèmes d'apprentissage automatique **scalables, reproductibles et monitorés**, de la phase d'expérimentation jusqu'à la mise en production. Mes travaux récents portent sur l'opérationnalisation de **Large Language Models (LLMOps)**, l'explicabilité avancée, et les architectures distribuées haute-performance.
+Ingénieur statisticien avec **6 ans d'expérience**, actuellement spécialisé en **IA & MLOps à Télécom Paris**. Je conçois et déploie des systèmes d'apprentissage automatique **scalables, reproductibles et monitorés**, depuis la phase d'expérimentation jusqu'à la mise en production. Mes travaux récents portent sur l'opérationnalisation de **Large Language Models (LLMOps)**, l'explicabilité avancée et les architectures distribuées haute-performance.
 
 ---
 
 ## 💼 Expériences Professionnelles & Projets
 
-### 🏦 **ML Engineer** _(2023 - Août 2025)_
-> **CIH Bank** - Maroc
+### 🤖 **IA Gen LLMOps — CDD 12 mois** _(Juil. 2025 - En cours)_
+> **Covéa**, Paris
 
-Scoring crédit & Détection de fraude : Conception, développement et mise en production.
+Conception d'un système multi-agents pour l'analyse automatisée de contrats d'assurance.
 
-- **Scorecard Bancaire** : Construction d'une grille de score pour l'octroi de crédit (WoE, IV, Régression Logistique Lasso), maximisation du Gini
-- **Détection de Fraude** : Benchmarking d'algorithmes (Logit, Random Forest, XGBoost) et stratégies de rééchantillonnage (SMOTE, Undersampling)
-- **MLOps** : Industrialisation des modèles, pipelines CI/CD et monitoring automatisé de la dérive (Data Drift)
+- **Data Engineering** : Pipeline d'ingestion intégrant le parsing de mise en page (**Docling**) et la réconciliation de métadonnées hétérogènes (**Fuzzy Logic & SQL**)
+- **Fine-tuning & Graph RAG** : Adaptation de **Mistral 7B** (**LoRA**) et fusion d'un **Knowledge Graph (Neo4j)** avec un **Vector Store (Chroma)** via **LangChain**
+- **Orchestration Multi-Agents** : Architecture d'agents collaboratifs avec raisonnement **Chain-of-Thought (CoT)** pour la décomposition et l'analyse de documents juridiques longs via **LangGraph**
+- **Mise en Production** : Déploiement conteneurisé (**Docker**, **Kubernetes**), API de serving via **FastAPI**, pipeline CI/CD et monitoring des performances modèles (**MLflow**, drift detection), observabilité des pipelines RAG et suivi des métriques LLM (latence, qualité des réponses)
 
 ---
 
-### 🔬 **Moteur d'Explicabilité Juridique (XAI)** - Projet Fil Rouge _(En cours)_
-> **COVEA & Télécom Paris**
+### 📊 **Agentic Data Engineer** _(Jan. 2026 - En cours)_
+> **InvestorSight**, Paris — Freelance
 
-Conception d'une **solution RAG Hybride** pour l'analyse automatisée de la couverture assurantielle.
+Pipeline ELT & orchestration multi-agents pour l'analyse automatisée de documents financiers (SEC Filings, news).
 
-- **Architecture** : Fusion d'un **Knowledge Graph (Neo4j)** pour la structure contractuelle et d'un **Vector Store (Chroma)** pour la sémantique, pilotée par **LangChain**
-- **Data Engineering** : Pipeline d'ingestion intelligent intégrant le parsing de mise en page (**Docling**) et la réconciliation de métadonnées hétérogènes (**Fuzzy Logic & SQL**)
-- **Modélisation** : **Fine-tuning de LLMs (LoRA)** pour spécialiser le raisonnement juridique et implémentation de mécanismes de citation de sources pour l'explicabilité
+- **Pipeline d'Ingestion** : Architecture ELT sur **GCP** — collecte de données financières (**EDGAR, GDELT API**, scraping), stockage sur **GCS** (landing zone, nommage par hashage) et messaging asynchrone via **Cloud Pub/Sub**
+- **NLP & Embeddings** : Parsing de PDF financiers avec **Docling Workers**, extraction d'ACU (Atomic Content Units), embeddings (**FinLang**) et indexation dans une **Vector/Graph DB** pour l'analyse sémantique de nouveauté (**NOVASCORE**)
+- **Orchestration & Agents** : Déploiement scalable sur **GKE** (**KEDA** autoscaler), agents autonomes (**Guardian** : Schema Drift & Data Quality ; **Analyst** : signal automation), métadonnées dans **PostgreSQL** (JSONB)
 
 ---
 
@@ -67,13 +68,26 @@ Déploiement d'un cluster sur 5 nœuds pour traiter un dataset réel de **16 Go 
 
 ---
 
-### 📊 **Ingénieur Statisticien / Data Engineer** _(2019 - 2023)_
+### ⚽ **[Pipeline ELT Football Statistics](https://github.com/kabbstat/ELT_FOOTBALL_STAT)** _(Déc 2025)_
+> Télécom Paris
+
+Pipeline ELT de niveau production pour l'analyse de statistiques du football européen (Premier League, La Liga, Ligue 1).
+
+- **Architecture** : Architecture de données Medallion (Bronze → Silver → Gold) avec **PostgreSQL**, assurant une séparation nette entre données brutes, nettoyées et agrégées
+- **Orchestration & Qualité** : Extraction hebdomadaire automatisée via **Apache Airflow**, transformations avec **dbt-core**, et 9 tests automatisés de qualité des données (unicité, non-nullité, validations custom)
+- **Visualisation & Recherche** : Dashboard interactif **Streamlit** (5 vues analytiques) et indexation **Elasticsearch** pour des requêtes avancées
+- **Conteneurisation** : Entièrement conteneurisé avec **Docker Compose** pour un déploiement reproductible
+
+---
+
+### 📊 **Data Engineer & Ingénieur Statisticien (5 ans)** _(2019 - Août 2024)_
 > **Ministère de l'Enseignement Supérieur**, Rabat
 
 Pilotage de la stratégie data et modélisation statistique pour les politiques publiques.
 
-- **Modélisation** : Conception de modèles de projection démographique (Age-Period-Cohort)
-- **Analytics** : Mise en place d'une architecture décisionnelle et de dashboards automatisés
+- **Data Cleaning** : Nettoyage, structuration et fiabilisation des données des universités pour les rendre exploitables
+- **Modélisation** : Conception de modèles de projection démographique (Âge-Période-Cohorte)
+- **Dashboarding** : Conception et automatisation de dashboards KPI pour le pilotage national de l'enseignement supérieur
 
 ---
 
@@ -97,42 +111,44 @@ Pilotage de la stratégie data et modélisation statistique pour les politiques 
 
 ### Operations & MLOps
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes_(GKE)-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white)
 
-`CI/CD` `DVC` `Monitoring` `Model Drift`
+`CI/CD` `dbt` `DVC` `KubeFlow` `FastAPI` `Monitoring` `Model Drift` `Terraform` `SLURM`
 
 ### GenAI & NLP
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
 
-`LLMs (Fine-tuning, RAG)` `Transformers` `Deep Learning` `NLP` `Embeddings` `Topic Modeling`
+`LLMs (Fine-tuning, RAG)` `Transformers` `Deep Learning` `NLP` `Embeddings` `Computer Vision` `CNN` `ViT` `GNN` `GAN` `VAE` `RL:PPO/GRPO` `Transfer Learning`
 
 ### Big Data
 ![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
 
-`MapReduce` `HDFS` `SQL` `dbt` `FastAPI` `NoSQL (Neo4j, MongoDB)` `ElasticSearch`
+`HDFS` `DataLake` `MapReduce` `SQL` `Snowflake` `NoSQL (Neo4j, MongoDB)` `NetworkX` `ElasticSearch`
 
 ### ML & Statistics
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 
-`Apprentissage Supervisé/Non-supervisé` `Inférence Bayésienne` `Économétrie Spatiale` `Séries Temporelles` `Optimisation`
+`Apprentissage Supervisé/Non-supervisé` `ML with Graphes` `Inférence Bayésienne` `Économétrie Spatiale` `Séries Temporelles`
 
 ---
 
 ## 🎓 Formation
 
-### **Mastère Spécialisé IA & MLOps** _(2025 - 2026)_
+### 📜 **Databricks Certified Data Engineer Associate** _(2025)_
+📍 **Databricks**
+
+### **Mastère Spécialisé IA & MLOps** _(2024 - 2026)_
 📍 **Télécom Paris**, Paris  
-Focus : Large Language Models, MLOps, Systèmes Distribués, Industrialisation de l'IA
+Focus : LLMs, MLOps, Systèmes Distribués
 
 ### **Ingénieur d'État en Statistique & Économie Appliquée** _(2016 - 2019)_
-📍 **INSEA**, Rabat  
-🏆 **Major de promotion (Valedictorian)**  
-Spécialisation : Data Science & Économétrie
+📍 **INSEA**, Rabat
 
 ### **Classes Préparatoires aux Grandes Écoles (CPGE)** _(2014 - 2016)_
 📍 MPSI/MP - Mathématiques & Physique
@@ -160,5 +176,5 @@ Spécialisation : Data Science & Économétrie
 
 <p align="center">
   <b>Ouvert aux opportunités en Data Science, MLOps & IA</b><br>
-  <i>Disponible pour des missions freelance ou CDI</i>
+  <i>Disponible pour un stage de fin d'études ou des missions freelance</i>
 </p>
