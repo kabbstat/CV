@@ -29,15 +29,14 @@ Statistical Engineer with **6 years of experience**, currently specializing in *
 
 ## 💼 Professional Experience & Projects
 
-### 🤖 **Gen AI LLMOps — 12-month Fixed-term Contract** _(Jul. 2025 - Present)_
-> **Covéa**, Paris
+### 🤖 **Gen AI LLMOps** _(Oct. 2025 - Present)_
+> **Covéa**, Paris — Capstone Project – Télécom Paris Master's
 
-Designing a multi-agent system for automated insurance contract analysis.
+Automated classification of "Legal Protection" claims (8,566 claims, 83 GMF/MAAF/MMA/Natixis contracts).
 
-- **Data Engineering**: Ingestion pipeline integrating layout parsing (**Docling**) and heterogeneous metadata reconciliation (**Fuzzy Logic & SQL**)
-- **Fine-tuning & Graph RAG**: **Mistral 7B** adaptation (**LoRA**) and fusion of a **Knowledge Graph (Neo4j)** with a **Vector Store (Chroma)** via **LangChain**
-- **Multi-Agent Orchestration**: Collaborative agent architecture with **Chain-of-Thought (CoT)** reasoning for decomposition and analysis of long legal documents via **LangGraph**
-- **Production Deployment**: Containerized deployment (**Docker**, **Kubernetes**), serving API via **FastAPI**, CI/CD pipeline and model performance monitoring (**MLflow**, drift detection), RAG pipeline observability and LLM metrics tracking (latency, response quality)
+- **Fine-tuning & Graph RAG**: Knowledge Graph (**NetworkX**, 2,083 nodes) + legal embeddings (**Solon/ChromaDB**). Fine-tuning **Mistral-7B** (**LoRA/SFT**), reinforcement alignment (**DPO, PPO, GRPO**). 76% accuracy (vs 60% baseline)
+- **Hybrid Pipeline**: Semantic search → **BFS** graph navigation → structured legal context → LLM reasoning. Entity extraction via **Qwen2.5-72B**. Multi-GPU deployment (**SLURM**)
+- **Data Engineering & Prod**: Ingestion of 83 documents (PDF/DOCX), parsing (**Docling**), intelligent chunking, deduplication. Deployment (**Docker**, **Kubernetes**), **FastAPI** API, CI/CD, monitoring (**MLflow**)
 
 ---
 
@@ -80,7 +79,19 @@ Production-grade ELT pipeline for European football statistics analysis (Premier
 
 ---
 
-### 📊 **Data Engineer & Statistical Engineer (5 years)** _(2019 - Aug 2024)_
+### 🏦 **ML Engineer – Scoring & Fraud Detection (2 years)** _(2023 - Aug 2025)_
+> **CIH Bank**, Morocco
+
+Credit scoring & transactional fraud: design, development, production deployment and management.
+
+- **Banking Scorecard**: Scoring grid (**WoE, IV, Logit Lasso**), Gini maximization, deployed in production
+- **Fraud Detection**: **XGBoost** + resampling (**SMOTE**) on imbalanced data, recall/false positives optimization
+- **MLOps**: CI/CD pipelines, drift monitoring (**Data Drift, PSI**), regulatory compliance
+- **Management**: Scoping with Risk & Compliance teams, performance reporting and business impact
+
+---
+
+### 📊 **Data Engineer & Statistical Engineer (4 years)** _(2019 - Aug 2023)_
 > **Ministry of Higher Education**, Rabat
 
 Leading data strategy and statistical modeling for public policies.

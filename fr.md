@@ -29,15 +29,14 @@ Ingénieur statisticien avec **6 ans d'expérience**, actuellement spécialisé 
 
 ## 💼 Expériences Professionnelles & Projets
 
-### 🤖 **IA Gen LLMOps — CDD 12 mois** _(Juil. 2025 - En cours)_
-> **Covéa**, Paris
+### 🤖 **IA Gen LLMOps** _(Oct. 2025 - En cours)_
+> **Covéa**, Paris — Projet fil rouge – Mastère Télécom Paris
 
-Conception d'un système multi-agents pour l'analyse automatisée de contrats d'assurance.
+Classification automatisée de sinistres "Protection Juridique" (8 566 sinistres, 83 contrats GMF/MAAF/MMA/Natixis).
 
-- **Data Engineering** : Pipeline d'ingestion intégrant le parsing de mise en page (**Docling**) et la réconciliation de métadonnées hétérogènes (**Fuzzy Logic & SQL**)
-- **Fine-tuning & Graph RAG** : Adaptation de **Mistral 7B** (**LoRA**) et fusion d'un **Knowledge Graph (Neo4j)** avec un **Vector Store (Chroma)** via **LangChain**
-- **Orchestration Multi-Agents** : Architecture d'agents collaboratifs avec raisonnement **Chain-of-Thought (CoT)** pour la décomposition et l'analyse de documents juridiques longs via **LangGraph**
-- **Mise en Production** : Déploiement conteneurisé (**Docker**, **Kubernetes**), API de serving via **FastAPI**, pipeline CI/CD et monitoring des performances modèles (**MLflow**, drift detection), observabilité des pipelines RAG et suivi des métriques LLM (latence, qualité des réponses)
+- **Fine-tuning & Graph RAG** : Knowledge Graph (**NetworkX**, 2 083 nœuds) + embeddings juridiques (**Solon/ChromaDB**). Fine-tuning **Mistral-7B** (**LoRA/SFT**), alignement par renforcement (**DPO, PPO, GRPO**). 76% accuracy (vs 60% baseline)
+- **Pipeline hybride** : Recherche sémantique → navigation **BFS** sur graphe → contexte juridique structuré → raisonnement LLM. Extraction d'entités via **Qwen2.5-72B**. Déploiement multi-GPU (**SLURM**)
+- **Data Engineering & Prod** : Ingestion de 83 documents (PDF/DOCX), parsing (**Docling**), chunking intelligent, déduplication. Déploiement (**Docker**, **Kubernetes**), API **FastAPI**, CI/CD, monitoring (**MLflow**)
 
 ---
 
@@ -80,7 +79,19 @@ Pipeline ELT de niveau production pour l'analyse de statistiques du football eur
 
 ---
 
-### 📊 **Data Engineer & Ingénieur Statisticien (5 ans)** _(2019 - Août 2024)_
+### 🏦 **ML Engineer – Scoring & Détection de Fraude (2 ans)** _(2023 - Août 2025)_
+> **CIH Bank**, Maroc
+
+Scoring crédit & fraude transactionnelle : conception, développement, mise en production et pilotage.
+
+- **Scorecard Bancaire** : Grille de score (**WoE, IV, Logit Lasso**), maximisation du Gini, déployé en production
+- **Détection de Fraude** : **XGBoost** + rééchantillonnage (**SMOTE**) sur données déséquilibrées, optimisation rappel/faux positifs
+- **MLOps** : Pipelines CI/CD, monitoring de dérive (**Data Drift, PSI**), respect des contraintes réglementaires
+- **Pilotage** : Cadrage avec les équipes Risques & Conformité, reporting performances et impacts métier
+
+---
+
+### 📊 **Data Engineer & Ingénieur Statisticien (4 ans)** _(2019 - Août 2023)_
 > **Ministère de l'Enseignement Supérieur**, Rabat
 
 Pilotage de la stratégie data et modélisation statistique pour les politiques publiques.
