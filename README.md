@@ -131,7 +131,7 @@ Pilotage de la stratégie data et modélisation statistique pour les politiques 
 ### 📜 **Databricks Certified Data Engineer Associate** _(2025)_
 📍 **Databricks**
 
-### **Mastère Spécialisé IA & MLOps** _(2024 - 2026)_
+### **Mastère Spécialisé IA & MLOps** _(2025 - 2026)_
 📍 **Télécom Paris**, Paris  
 Focus : LLMs, MLOps, Systèmes Distribués
 
